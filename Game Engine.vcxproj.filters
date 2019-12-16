@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FrameRateController.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Components\Component.cpp" />
+    <ClCompile Include="Components\Controller.cpp" />
+    <ClCompile Include="Components\Sprite.cpp" />
+    <ClCompile Include="Components\Transform.cpp" />
+    <ClCompile Include="Components\UpDown.cpp" />
+    <ClCompile Include="Manager\GameObjectManager.cpp" />
+    <ClCompile Include="Manager\InputManager.cpp" />
+    <ClCompile Include="Manager\ResourceManager.cpp" />
+    <ClCompile Include="ObjectFactory.cpp" />
+    <ClCompile Include="Components\Body.cpp" />
+    <ClCompile Include="Manager\PhysicsManager.cpp" />
+    <ClCompile Include="Manager\CollisionManager.cpp" />
+    <ClCompile Include="Manager\EventManager.cpp" />
+    <ClCompile Include="Math\Math2D.c" />
+    <ClCompile Include="Math\Matrix2D.c" />
+    <ClCompile Include="Math\TransformMatrix4D.cpp" />
+    <ClCompile Include="Math\LineSegment2D.c" />
+    <ClCompile Include="Math\Vector2D.c" />
+    <ClCompile Include="Render.cpp" />
+    <ClCompile Include="Weapons\Weapons.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameRateController.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Components\Component.h" />
+    <ClInclude Include="Components\Controller.h" />
+    <ClInclude Include="Components\Sprite.h" />
+    <ClInclude Include="Components\Transform.h" />
+    <ClInclude Include="Components\UpDown.h" />
+    <ClInclude Include="Manager\GameObjectManager.h" />
+    <ClInclude Include="Manager\InputManager.h" />
+    <ClInclude Include="Manager\ResourceManager.h" />
+    <ClInclude Include="ObjectFactory.h" />
+    <ClInclude Include="Components\Body.h" />
+    <ClInclude Include="Manager\PhysicsManager.h" />
+    <ClInclude Include="Manager\CollisionManager.h" />
+    <ClInclude Include="Manager\EventManager.h" />
+    <ClInclude Include="include\glew.h" />
+    <ClInclude Include="include\stb_image.h" />
+    <ClInclude Include="Math\Math2D.h" />
+    <ClInclude Include="Math\Matrix2D.h" />
+    <ClInclude Include="Math\TransformMatrix4D.h" />
+    <ClInclude Include="Math\Vector2D.h" />
+    <ClInclude Include="Math\LineSegment2D.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="Weapons\Weapons.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll" />
+    <None Include="x64\Debug\Game Engine.tlog\SDL2.dll" />
+    <None Include="OGLClass\VertexShader.vs" />
+    <None Include="OGLClass\FragmentShader.fs" />
+    <None Include="glew32.dll" />
+    <None Include="FragmentShader.fs" />
+    <None Include="VertexShader.vs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+Transform
+000 100 100 100
+Sprite
+GunMan.png
+Controller
+Body
+1.00
+AABB
+80 150

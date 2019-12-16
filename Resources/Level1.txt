@@ -1,0 +1,8 @@
+Background.txt
+000 768 1024 768
+Player.txt
+100.0 100.0 100 120
+Enemy.txt
+850.0 400.0 200 200
+Enemy2.txt
+800.0 700.0 100 120

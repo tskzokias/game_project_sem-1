@@ -1,0 +1,10 @@
+Transform 
+700 400 80 120
+Sprite
+BombMan.png
+UpDown
+000 000
+Body
+0.5
+AABB
+80 120

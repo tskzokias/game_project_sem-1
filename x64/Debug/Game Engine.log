@@ -1,0 +1,55 @@
+﻿  Body.cpp
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\Components\Body.cpp(42,17): warning C4477: 'fscanf_s' : format string '%255s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
+  Component.cpp
+  Controller.cpp
+  Sprite.cpp
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\Components\Body.cpp(42,17): message : this argument is used as a buffer size
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\Components\Sprite.cpp(29,17): warning C4477: 'fscanf_s' : format string '%255s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
+  Transform.cpp
+  UpDown.cpp
+  FrameRateController.cpp
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\Components\Sprite.cpp(29,17): message : this argument is used as a buffer size
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\FrameRateController.cpp(25,26): warning C4305: '=': truncation from 'unsigned int' to 'Uint8'
+  GameObject.cpp
+  Main.cpp
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\FrameRateController.cpp(25,18): warning C4309: '=': truncation of constant value
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\Main.cpp(127,19): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\Main.cpp(161,46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CollisionManager.cpp
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\Main.cpp(162,46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\Manager\CollisionManager.cpp(48,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  GameObjectManager.cpp
+  InputManager.cpp
+  PhysicsManager.cpp
+  ResourceManager.cpp
+  ObjectFactory.cpp
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\Manager\CollisionManager.cpp(51,41): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\ObjectFactory.cpp(21,17): warning C4477: 'fscanf_s' : format string '%255s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\ObjectFactory.cpp(21,17): message : this argument is used as a buffer size
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\ObjectFactory.cpp(54,17): warning C4477: 'fscanf_s' : format string '%255s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
+  Generating Code...
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\ObjectFactory.cpp(54,17): message : this argument is used as a buffer size
+FrameRateController.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: void __cdecl FrameRateController::FrameEnd(void)" (?FrameEnd@FrameRateController@@QEAAXXZ)
+Main.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function SDL_main
+ResourceManager.obj : error LNK2001: unresolved external symbol SDL_RWFromFile
+Main.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function SDL_main
+ResourceManager.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+Main.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function SDL_main
+ResourceManager.obj : error LNK2001: unresolved external symbol SDL_LoadBMP_RW
+Main.obj : error LNK2019: unresolved external symbol SDL_FillRect referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_UpperBlit referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_GetWindowSurface referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_UpdateWindowSurface referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+CollisionManager.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Shape::~Shape(void)" (??1Shape@@UEAA@XZ) referenced in function "public: virtual __cdecl ShapeAABB::~ShapeAABB(void)" (??1ShapeAABB@@UEAA@XZ)
+InputManager.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function "public: void __cdecl InputManager::Update(void)" (?Update@InputManager@@QEAAXXZ)
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+..\SDL2.0 Lib\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+..\SDL2.0 Lib\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+..\SDL2.0 Lib\lib\x86\SDL2test.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\AchacraCS529Assignments\Final_Project_MileStone2_taksh.goyal - after milestone3\Game Engine - 1 - Application Startup\Game Engine - 1 - Application Startup\Game Engine\x64\Debug\Game Engine.exe : fatal error LNK1120: 17 unresolved externals

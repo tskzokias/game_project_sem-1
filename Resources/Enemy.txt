@@ -1,0 +1,10 @@
+Transform 
+400 400 200 200
+Sprite
+EnemyShooter.png
+UpDown
+1000 800
+Body
+0.0
+AABB
+80 120
